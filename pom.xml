@@ -119,7 +119,7 @@
             </configuration>
         </plugin>
 
-     <!--  <plugin>
+      <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.5.1</version>
@@ -129,7 +129,7 @@
               <executable>/usr/lib/jvm/jdk1.7.0_79/bin/javac</executable>
               <compilerVersion>1.7</compilerVersion>
             </configuration>
-        </plugin>   --> 
+        </plugin>  
 <!--  	<plugin>
 			<groupId>org.reportyng</groupId>
 			<artifactId>reporty-ng</artifactId>
