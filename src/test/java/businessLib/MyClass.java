@@ -14,7 +14,7 @@ public class MyClass {
 		  Boolean present=true;
 		  if(flag.equals(present))
 		  {
-			  Reporter.log("PASS", true);
+			  Reporter.log("MY TEST MAVEN PROJECT", true);
 		  }
 	}
 
