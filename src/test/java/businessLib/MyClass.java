@@ -2,6 +2,7 @@ package businessLib;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Reporter;
 
 public class MyClass {
 
@@ -13,7 +14,7 @@ public class MyClass {
 		  Boolean present=false;
 		  if(flag.equals(present))
 		  {
-			  System.out.println("PASS");
+			  Reporter.log("PASS", true);
 		  }
 	}
 
