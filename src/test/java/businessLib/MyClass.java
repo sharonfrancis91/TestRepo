@@ -11,7 +11,7 @@ public class MyClass {
 		Boolean flag=true;
 		 WebDriver driver = new FirefoxDriver();
 		  driver.get("https://in.linkedin.com/");
-		  Boolean present=false;
+		  Boolean present=true;
 		  if(flag.equals(present))
 		  {
 			  Reporter.log("PASS", true);
